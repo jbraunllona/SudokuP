@@ -67,6 +67,7 @@ def naked_twins(values):
                         if len(values[k]) > 2:
                             values_new[k] = values[k].replace(values[box][0],'')
                             values_new[k] = values[k].replace(values[box][1],'')
+    values = values_new
     return values
            
 
